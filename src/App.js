@@ -1,10 +1,9 @@
-import Pedido from "./components/compra/Pedido";
-import Guardar from "./components/compra/Guardar";
+import Menu from "./components/menu/Menu";
 function App() {
   return (
     <div>
-     <Guardar></Guardar>
-    
+      <Menu></Menu>
+
     </div>
   );
 }
