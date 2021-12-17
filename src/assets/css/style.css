@@ -1,0 +1,37 @@
+body{
+    background-color: #222222;
+    color:white;
+}
+
+.contenedor{
+    text-align: center;
+}
+
+.titulo{
+    font-size: 50px;
+}
+
+.boton{
+    width: 5%;
+    height: 50px;
+    font-size: 32px;
+    color:white;
+    border: none;
+}
+
+.botonizq{
+    background-color: green;
+    margin-right: 1%;
+}
+.botonder{
+    background-color: red;
+}
+
+.botonizq:hover{
+    background-color: rgb(115, 236, 115);
+}
+
+.botonder:hover{
+    background-color: rgb(251, 109, 109);
+}
+
