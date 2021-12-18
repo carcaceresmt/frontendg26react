@@ -2,6 +2,7 @@ import React from 'react'
 import Guardar from '../compra/Guardar'
 import Pedido from '../compra/Pedido'
 import Contador from '../Contador'
+import Page404 from './Page404'
 import {
     BrowserRouter as Router,
     Routes,
@@ -31,6 +32,7 @@ const Menu = () => {
                     </ul>
                 </nav>
                 <Routes>
+                    <Route path="*" element={<Page404></Page404>}></Route>
                     <Route path="/" element={<Pedido></Pedido>}></Route>
                     <Route path="/pedido" element={<Pedido></Pedido>}></Route>
                     <Route path="/guardar" element={<Guardar></Guardar>}></Route>
